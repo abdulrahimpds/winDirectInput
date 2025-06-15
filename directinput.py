@@ -819,7 +819,7 @@ def hotKey(*keys, **kwargs):
         sleep(key_delay)
 
 
-def write(text: str, interval=0.0, key_delay=0.03):
+def write(text: str, interval=0.0, key_delay=0.001):
     """
     Types out a given text string.
 
